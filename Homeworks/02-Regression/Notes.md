@@ -14,6 +14,7 @@
     ex: df.groupby('departamento')['salario'].mean()
       # Media salarial por departamento.
 
+
 - Resumo da Jornada EDA com Pandas
 
   A EDA usando Pandas segue tipicamente esta ordem lógica:
@@ -42,7 +43,9 @@
   df_train = df.iloc[idx[:n_train]]
 
 - Targe variables:
-  - y_train = np.log1p[df_train.msrp.values]
+  - y_train = np.log1p[df_train.msrp.values] (Você usa o np.log1p() para o pré-processamento antes de treinar o modelo e o np.expm1() para o pós-processamento dos resultados, garantindo que suas previsões sejam válidas e estejam na escala original.)
+ 
+  - ![5109370156084824867](https://github.com/user-attachments/assets/3afd05d4-310a-42ae-85bb-dcff6cfdb624)
   
   
   
