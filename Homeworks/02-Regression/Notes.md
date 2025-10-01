@@ -27,6 +27,7 @@
     Multivariada: Usar df.groupby() e df.corr() para identificar relações e padrões que podem ser úteis para a modelagem futura.
 
 - Validation Framework:
+  
   |train         | val | test |
   -----------------------------
   |60%           | 20% | 20%  |
