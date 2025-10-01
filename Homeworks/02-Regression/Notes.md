@@ -44,7 +44,7 @@
 
 - Targe variables:
   - y_train = np.log1p[df_train.msrp.values] (Você usa o np.log1p() para o pré-processamento antes de treinar o modelo e o np.expm1() para o pós-processamento dos resultados, garantindo que suas previsões sejam válidas e estejam na escala original.)
-  - Ver Figura1 
+  - Ver Figura1 <Homeworks/02-Regression/5109370156084824867.jpg>
  
 
   
