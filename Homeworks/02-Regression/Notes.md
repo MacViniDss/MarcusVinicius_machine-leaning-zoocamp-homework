@@ -31,4 +31,13 @@
   |train         | val | test |
   ---------------|-----|-------
   |60%           | 20% | 20%  |
+
+  len(df)
+  n_train = int(n * 0.6)
+  n_val = int(n * 0.2)
+  n_test = int(n * 0.2)
+  # O df deve está aleátorio/diversificado para melhor precisão.
+  idx = np.arange(n)
+  np.random.shuffle(idx)
+  df_train = df.iloc[idx[:n_train]]
   
