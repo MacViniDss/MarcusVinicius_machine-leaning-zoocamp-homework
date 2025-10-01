@@ -13,3 +13,15 @@
   .groupby()[] -> agrupa e agrega
     ex: df.groupby('departamento')['salario'].mean()
       # Media salarial por departamento.
+
+- Resumo da Jornada EDA com Pandas
+
+  A EDA usando Pandas segue tipicamente esta ordem lógica:
+
+    Diagnóstico: Usar df.info() e df.isnull().sum() para encontrar o que está quebrado.
+
+    Univariada (Numérica): Usar df.describe() para encontrar outliers e entender a escala.
+
+    Univariada (Categórica): Usar value_counts() para entender a frequência das categorias.
+
+    Multivariada: Usar df.groupby() e df.corr() para identificar relações e padrões que podem ser úteis para a modelagem futura.
