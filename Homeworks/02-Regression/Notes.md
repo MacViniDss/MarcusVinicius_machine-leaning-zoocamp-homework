@@ -40,4 +40,9 @@
   idx = np.arange(n)
   np.random.shuffle(idx)
   df_train = df.iloc[idx[:n_train]]
+
+- Targe variables:
+  - y_train = np.log1p[df_train.msrp.values]
+  
+  
   
