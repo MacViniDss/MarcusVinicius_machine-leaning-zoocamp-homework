@@ -72,7 +72,7 @@ O bootcamp está dividido em nove módulos que cobrem todo o ciclo de vida de um
 
     Tópicos: Fundamentos de Kubernetes, utilização de TensorFlow Serving e estratégias de deployment, scaling e load balancing.
 
-🛠️ Tecnologias Principais
+- Tecnologias Principais
 
     Linguagem & Bibliotecas: Python, Pandas, Scikit-learn, Matplotlib, Seaborn
 
