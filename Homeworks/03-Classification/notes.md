@@ -19,7 +19,7 @@ Logistic regression is similar to linear regression because both models take int
 
 g ( x i ) = S i g m o i d ( w 0 + w 1 x 1 + w 2 x 2 + . . . + w n x n )
 
-S i g m o i d ( z ) = 1 1 + e x p ( − z )
+S i g m o i d ( z ) = 1 / (1 + e x p ( − z ))
 
 In this way, the sigmoid function allows transforming a score into a probability.
 
