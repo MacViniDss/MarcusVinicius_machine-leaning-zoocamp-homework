@@ -15,3 +15,11 @@
     DictVectorizer().fit_transform(x) - Scikit-Learn class for one-hot encoding by converting x dictionaries into a sparse matrix. It does not affect the numerical variables.
     DictVectorizer().get_feature_names() - return the names of the columns in the sparse matrix.
 
+Logistic regression is similar to linear regression because both models take into account the bias term and weighted sum of features. The difference between these models is that the output of linear regression is a real number, while logistic regression outputs a value between zero and one, applying the sigmoid function to the linear regression formula.
+
+g ( x i ) = S i g m o i d ( w 0 + w 1 x 1 + w 2 x 2 + . . . + w n x n )
+
+S i g m o i d ( z ) = 1 1 + e x p ( − z )
+
+In this way, the sigmoid function allows transforming a score into a probability.
+
