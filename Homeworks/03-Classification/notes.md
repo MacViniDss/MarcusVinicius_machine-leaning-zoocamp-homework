@@ -7,3 +7,11 @@
  Mutual information: Concept from information theory, wich measure how much we can learn about one variable if we know the value of other one. It's a measure of the importance of a categorical variable.
 
  Correlation: Measures the degree of dependency between two variables.
+
+ One-Hot Encoding allows encoding categorical variables in numerical ones. This method represents each category of a variable as one column, and a 1 is assigned if the value belongs to the category or 0 otherwise.
+
+
+    df[x].to_dict(orient='records') - convert x series to dictionaries, oriented by rows.
+    DictVectorizer().fit_transform(x) - Scikit-Learn class for one-hot encoding by converting x dictionaries into a sparse matrix. It does not affect the numerical variables.
+    DictVectorizer().get_feature_names() - return the names of the columns in the sparse matrix.
+
