@@ -1,18 +1,4 @@
-
-
-import requests
-
-
-# In[4]:
-
-
-url = 'http://localhost:9696/predict'
-
-
-# In[5]:
-
-
-customer = {
+ {
     
     "gender": "female",
     "seniorcitizen": 0,
@@ -34,16 +20,3 @@ customer = {
     "totalcharges" : 29.85
 }
  
-
-
-# In[11]:
-
-
-response = requests.post(url, json= customer).json()
-print(response)
-
-# In[ ]:
-
-
-
-
